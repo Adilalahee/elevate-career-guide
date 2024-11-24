@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Blog = () => {
+const Profile = () => {
     return (
         <div>
-            Hello Blog pages
+            Hello profile pages
         </div>
     );
 };
 
-export default Blog;
+export default Profile;
