@@ -52,6 +52,114 @@
       "Pricing": "$100/session",
       "Counselor_Name": "Sophia Lee",
       "Service_Details": "Pathwise Mentorship provides one-on-one mentorship for individuals seeking guidance in their career or educational paths. The service focuses on providing actionable advice, sharing industry knowledge, and offering emotional support to help you stay motivated and focused on your goals. Whether you're a student preparing for your first job, a mid-career professional looking for a shift, or an entrepreneur seeking mentorship for your business, Pathwise Mentorship will provide expert guidance and actionable steps. The mentor will help you set realistic goals, build essential skills, and develop a strong professional network, ensuring your success in the competitive job market."
-    }
+    },
+      {
+        "id": 7,
+        "Service_Name": "Stress Management Therapy",
+        "Category": "Mental Health",
+        "Pricing": "$120 per session",
+        "Counselor_Name": "Dr. Emily Smith",
+        "Service_Details": "Stress Management Therapy helps individuals understand the root causes of their stress, whether it’s work-related, personal life challenges, or environmental factors. The therapist uses a variety of techniques, such as mindfulness meditation, relaxation exercises, and cognitive behavioral therapy (CBT) strategies, to help clients cope with stress. This therapy aims to empower clients to manage their stress on their own, reduce anxiety, and regain control over their emotional responses. The process involves identifying stress triggers, learning how to respond more calmly, and building resilience to prevent stress from becoming overwhelming.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 8,
+        "Service_Name": "Couples Therapy",
+        "Category": "Relationships",
+        "Pricing": "$150 per session",
+        "Counselor_Name": "Dr. Michael Johnson",
+        "Service_Details": "Couples Therapy provides a safe and structured environment for partners to address issues in their relationship. Through guided sessions, couples can communicate more openly, work through unresolved conflicts, and improve their emotional connection. The therapist uses various techniques, such as communication exercises, conflict resolution strategies, and emotional intelligence development, to strengthen the partnership. Whether dealing with trust issues, intimacy problems, or external pressures, the goal is to help each partner understand the other's perspective and work together to create a healthier, more fulfilling relationship.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 9,
+        "Service_Name": "Life Coaching",
+        "Category": "Personal Development",
+        "Pricing": "$100 per session",
+        "Counselor_Name": "Sarah Lee",
+        "Service_Details": "Life Coaching is designed to help individuals clarify their goals, overcome obstacles, and create actionable plans for achieving personal success. The coaching process is collaborative and focuses on identifying strengths, values, and passions, allowing clients to create a vision for their life. Through personalized support, clients work on building self-confidence, improving decision-making skills, and boosting motivation. Life coaches provide accountability, helping clients stay on track with their goals, while also encouraging reflection and personal growth. This service is beneficial for those looking to achieve a sense of purpose and direction in their personal or professional lives.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 10,
+        "Service_Name": "Career Counseling",
+        "Category": "Career Development",
+        "Pricing": "$130 per session",
+        "Counselor_Name": "David Brown",
+        "Service_Details": "Career Counseling is designed for individuals who are uncertain about their career direction, seeking guidance on career transitions, job search strategies, or advancement opportunities. The counselor works with clients to identify their skills, interests, and values, and align them with potential career paths. The sessions involve exploring job market trends, preparing resumes, practicing interview techniques, and setting achievable career goals. This service also includes support for those going through career changes, helping them navigate professional challenges and reframe their career outlook. Career counseling empowers clients to make informed decisions about their professional futures and develop the necessary skills to succeed.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 11,
+        "Service_Name": "Anxiety Reduction Sessions",
+        "Category": "Mental Health",
+        "Pricing": "$110 per session",
+        "Counselor_Name": "Dr. Lisa Taylor",
+        "Service_Details": "Anxiety Reduction Sessions are designed to help individuals reduce feelings of anxiety and panic through various therapeutic techniques. These sessions incorporate Cognitive Behavioral Therapy (CBT) to challenge irrational thought patterns that contribute to anxiety, as well as relaxation exercises to promote physical and mental calmness. Clients will also learn breathing exercises, grounding techniques, and mindfulness strategies to help manage anxiety in real-life situations. By developing coping skills and emotional regulation strategies, individuals are empowered to face their fears and reduce the frequency and intensity of anxiety attacks. This therapy aims to build confidence and resilience, allowing individuals to live with less anxiety and greater peace of mind.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 12,
+        "Service_Name": "Grief Counseling",
+        "Category": "Mental Health",
+        "Pricing": "$140 per session",
+        "Counselor_Name": "James White",
+        "Service_Details": "Grief Counseling provides support for individuals coping with the loss of a loved one. It aims to help clients navigate through the stages of grief, such as denial, anger, bargaining, depression, and acceptance, by offering a safe space to express emotions and process their grief. The therapist uses a variety of therapeutic techniques, including talk therapy, mindfulness, and memory work, to help clients heal from their loss. This service helps individuals understand that grief is a unique and personal journey, while also providing coping strategies to manage overwhelming feelings of sadness and loss. Grief counseling empowers clients to honor their loved ones and eventually find peace and acceptance.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 13,
+        "Service_Name": "Child Behavioral Therapy",
+        "Category": "Child Development",
+        "Pricing": "$95 per session",
+        "Counselor_Name": "Dr. Nancy Green",
+        "Service_Details": "Child Behavioral Therapy focuses on helping children develop healthier behaviors and emotional regulation skills. Using play therapy techniques, the counselor works with children to express their emotions, address behavioral issues such as aggression or anxiety, and learn appropriate coping mechanisms. This therapy involves engaging with the child through creative activities, role-playing, and storytelling, while also providing parents with strategies to reinforce positive behaviors at home. The therapist also works with the child to build social skills, emotional awareness, and problem-solving abilities. The goal is to improve the child’s emotional well-being and behavior, allowing them to thrive both at home and in social settings.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 14,
+        "Service_Name": "Family Therapy",
+        "Category": "Relationships",
+        "Pricing": "$130 per session",
+        "Counselor_Name": "Rachel Adams",
+        "Service_Details": "Family Therapy is designed to improve communication and resolve conflicts within families. The therapist works with all family members to help them express their feelings and perspectives in a non-judgmental, safe space. This type of therapy helps families understand the dynamics that contribute to issues such as communication breakdowns, behavioral problems, or sibling rivalry. By fostering mutual understanding, empathy, and respect, family therapy aims to strengthen relationships, rebuild trust, and create a more harmonious home environment. The therapist also provides strategies for healthy conflict resolution, helping families navigate future challenges together.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 15,
+        "Service_Name": "Addiction Counseling",
+        "Category": "Mental Health",
+        "Pricing": "$150 per session",
+        "Counselor_Name": "Dr. Alan Kline",
+        "Service_Details": "Addiction Counseling provides individuals struggling with substance abuse or behavioral addictions the support they need to recover and rebuild their lives. The counselor helps clients explore the underlying emotional and psychological causes of their addiction, while also focusing on practical strategies for recovery. Treatment options may include individual therapy, group therapy, and family support. The therapist uses evidence-based approaches such as Cognitive Behavioral Therapy (CBT), Motivational Interviewing, and relapse prevention strategies to help clients achieve long-term sobriety. The goal is to create a personalized recovery plan that empowers clients to regain control of their lives and make lasting positive changes.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 16,
+        "Service_Name": "Eating Disorder Therapy",
+        "Category": "Mental Health",
+        "Pricing": "$160 per session",
+        "Counselor_Name": "Dr. Olivia Mitchell",
+        "Service_Details": "Eating Disorder Therapy focuses on addressing unhealthy relationships with food, body image issues, and disordered eating behaviors such as anorexia, bulimia, or binge eating. The counselor uses a combination of Cognitive Behavioral Therapy (CBT), family-based therapy, and mindfulness techniques to help individuals develop a healthier mindset about food and their body. This therapy works to uncover the underlying emotional issues contributing to the eating disorder, such as trauma, anxiety, or depression. Clients are taught to challenge distorted thoughts about food and appearance, rebuild self-esteem, and develop healthier coping strategies. The ultimate goal is to help individuals recover from the eating disorder and develop a balanced, sustainable relationship with food.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      },
+      {
+        "id": 17,
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg",
+        "Service_Name": "Mindfulness Meditation",
+        "Category": "Personal Development",
+        "Pricing": "$90 per session",
+        "Counselor_Name": "John Carter",
+        "Service_Details": "Mindfulness Meditation teaches clients to focus on the present moment, fostering awareness of thoughts, emotions, and physical sensations without judgment. The sessions include guided meditation exercises that encourage deep relaxation and mental clarity, helping to reduce stress and increase emotional balance. Clients will"
+      },
+      {
+        "id": 18,
+        "Service_Name": "Teen Counseling",
+        "Category": "Teen Development",
+        "Pricing": "$120 per session",
+        "Counselor_Name": "Amanda Jones",
+        "Service_Details": "Teen Counseling is specifically designed to address the unique challenges faced by adolescents. This service focuses on helping teenagers navigate emotional, social, and behavioral issues that may arise during their formative years. The counselor provides a safe and confidential space for teens to express their feelings and concerns, addressing issues such as anxiety, depression, academic stress, peer pressure, and family conflict. Therapeutic techniques may include Cognitive Behavioral Therapy (CBT), talk therapy, and behavioral interventions. The goal is to help teens build self-esteem, improve their emotional regulation, and develop healthy coping mechanisms for dealing with challenges, ultimately empowering them to lead balanced and resilient lives.",
+        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+      }
   ]
   

@@ -30,7 +30,8 @@ const router=createBrowserRouter([
                 element:<Team></Team>
             },       {
                 path:"/blog",
-                element:<Blog></Blog>
+                element:<Blog></Blog>,
+                loader:()=>fetch("/service.json")
             },
             {
                 path:"/profile",
