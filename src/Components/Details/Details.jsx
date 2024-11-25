@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Modal from '../Modal/Modal';
 
 const Details = ({name}) => {
     const {Category,Service_Details}=useLoaderData();
@@ -31,9 +32,9 @@ const Details = ({name}) => {
         <div>
         <textarea name='feedback' className="textarea textarea-primary" placeholder="Bio"></textarea>
         </div>
-        <button className="btn btn-primary">Submit</button>
+        <button onClick={()=>document.getElementById('my_modal_5').showModal()} className="btn btn-primary">Submit</button>
       </form>
-      <h1>{name}</h1>
+      <Modal></Modal>
       </>
     );
 };
