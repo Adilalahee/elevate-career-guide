@@ -7,6 +7,8 @@ import Team from "../Pages/Team";
 import Blog from "../Pages/Blog";
 import Profile from "../Pages/Profile";
 import Details from "../Components/Details/Details";
+import Login from "../Components/Login/Login";
+import Register from "../Components/Register/Register";
 
 const router=createBrowserRouter([
     {
@@ -47,9 +49,16 @@ const router=createBrowserRouter([
                     const singledata=data.find(d=>d.id==params.id)
                     console.log(singledata)
                     return singledata;
-        
 
                 }
+            },
+            {
+                path:"/login",
+                element:<Login></Login>
+            },
+            {
+                path:"/register",
+                element:<Register></Register>
             }
 
         ]
