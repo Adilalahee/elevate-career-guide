@@ -1,8 +1,15 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
-const Details = () => {
-    const {Category,Service_Details}=useLoaderData()
+const Details = ({name}) => {
+    const {Category,Service_Details}=useLoaderData();
+    const handleSubmit=(e)=>{
+      e.preventDefault();
+      const form=e.target;
+      const name=form.name.value;
+      const feedback=form.feedback.value;
+      return name,feedback;
+    }
     return (
         <>
         <div className="hero bg-base-200 max-h-screen">
@@ -12,11 +19,21 @@ const Details = () => {
             <p className="py-6">
               {Service_Details}
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            
           </div>
         </div>
-        <textarea className="textarea textarea-primary" placeholder="Bio"></textarea>
+        
       </div>
+      <form onSubmit={handleSubmit} action="">
+        <div>
+        <input className="input input-bordered" type="text" name='name' placeholder='Name' />
+        </div>
+        <div>
+        <textarea name='feedback' className="textarea textarea-primary" placeholder="Bio"></textarea>
+        </div>
+        <button className="btn btn-primary">Submit</button>
+      </form>
+      <h1>{name}</h1>
       </>
     );
 };
