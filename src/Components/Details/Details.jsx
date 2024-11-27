@@ -2,15 +2,24 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Modal from '../Modal/Modal';
 
-const Details = ({name}) => {
+const Details = () => {
     const {Category,Service_Details}=useLoaderData();
     const handleSubmit=(e)=>{
       e.preventDefault();
-      const form=e.target;
-      const name=form.name.value;
-      const feedback=form.feedback.value;
-      return name,feedback;
+    const name=e.target.name.value;
+    const feedback=e.target.feedback.value;
+    const info={
+      name,feedback
     }
+    let savedata=[];
+    const localData=localStorage.getItem("feedbacks")
+    if(localData){
+      savedata=JSON.parse(localData);
+    }  
+    savedata.push(info);
+    localStorage.setItem("feedbacks",JSON.stringify(savedata))
+  }
+    
     return (
         <>
         <div className="hero bg-base-200 max-h-screen">

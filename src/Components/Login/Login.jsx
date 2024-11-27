@@ -18,6 +18,12 @@ const Login = () => {
         )
    
     }
+    const handleGoogleLogin=()=>{
+      handleGoogle()
+      .then(res=>{
+        navigate(location.state.from)
+      })
+    }
     return (
         <div>
              <form onSubmit={handleLoggedin} action="">
@@ -50,7 +56,7 @@ const Login = () => {
 <button type="submit">Login</button>
 <button onClick={handleLogOut}>Log Out</button>
             </form>
-            <button onClick={handleGoogle}>Google Login</button>
+            <button onClick={handleGoogleLogin}>Google Login</button>
             New here? <NavLink to='/register'>Register</NavLink>
         </div>
     );

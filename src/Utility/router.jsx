@@ -39,7 +39,9 @@ const router=createBrowserRouter([
             },
             {
                 path:"/profile",
-                element:<Profile></Profile>
+                element:<Privateroute>
+                    <Profile></Profile>
+                </Privateroute> 
             },
             {
                 path:"/details/:id",
