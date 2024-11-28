@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg",
+      "Image": "https://i.ibb.co.com/qDcbVhw/jason-goodman-w-Vh5gr-SMYa-Y-unsplash.jpg",
       "Service_Name": "FuturePathfinder",
       "Category": "Career Counseling",
       "Pricing": "$150/session",
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg",
+      "Image": "https://i.ibb.co.com/tspCpVm/icons8-team-m0o-STE-Mjs-I-unsplash.jpg",
       "Service_Name": "AspirePath Coaching",
       "Category": "Career Development",
       "Pricing": "$180/session",
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg",
+      "Image": "https://i.ibb.co.com/tspCpVm/icons8-team-m0o-STE-Mjs-I-unsplash.jpg",
       "Service_Name": "CareerClimb Solutions",
       "Category": "Career Planning",
       "Pricing": "$130/session",
@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg",
+      "Image": "https://i.ibb.co.com/VH0CpP4/pexels-olly-3783585.jpg",
       "Service_Name": "VisionaryPath Consulting",
       "Category": "Executive Coaching",
       "Pricing": "$250/session",
@@ -46,7 +46,7 @@
     },
     {
       "id": 6,
-      "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg",
+      "Image": "https://i.ibb.co.com/G0X3FGZ/pexels-olly-3760371.jpg",
       "Service_Name": "Pathwise Mentorship",
       "Category": "Mentorship",
       "Pricing": "$100/session",
@@ -69,7 +69,7 @@
         "Pricing": "$150 per session",
         "Counselor_Name": "Dr. Michael Johnson",
         "Service_Details": "Couples Therapy provides a safe and structured environment for partners to address issues in their relationship. Through guided sessions, couples can communicate more openly, work through unresolved conflicts, and improve their emotional connection. The therapist uses various techniques, such as communication exercises, conflict resolution strategies, and emotional intelligence development, to strengthen the partnership. Whether dealing with trust issues, intimacy problems, or external pressures, the goal is to help each partner understand the other's perspective and work together to create a healthier, more fulfilling relationship.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/1J1rzL6/pexels-cottonbro-6814538.jpg"
       },
       {
         "id": 9,
@@ -78,7 +78,7 @@
         "Pricing": "$100 per session",
         "Counselor_Name": "Sarah Lee",
         "Service_Details": "Life Coaching is designed to help individuals clarify their goals, overcome obstacles, and create actionable plans for achieving personal success. The coaching process is collaborative and focuses on identifying strengths, values, and passions, allowing clients to create a vision for their life. Through personalized support, clients work on building self-confidence, improving decision-making skills, and boosting motivation. Life coaches provide accountability, helping clients stay on track with their goals, while also encouraging reflection and personal growth. This service is beneficial for those looking to achieve a sense of purpose and direction in their personal or professional lives.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/jrKybh6/pexels-vanessa-garcia-6326090.jpg"
       },
       {
         "id": 10,
@@ -87,7 +87,7 @@
         "Pricing": "$130 per session",
         "Counselor_Name": "David Brown",
         "Service_Details": "Career Counseling is designed for individuals who are uncertain about their career direction, seeking guidance on career transitions, job search strategies, or advancement opportunities. The counselor works with clients to identify their skills, interests, and values, and align them with potential career paths. The sessions involve exploring job market trends, preparing resumes, practicing interview techniques, and setting achievable career goals. This service also includes support for those going through career changes, helping them navigate professional challenges and reframe their career outlook. Career counseling empowers clients to make informed decisions about their professional futures and develop the necessary skills to succeed.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/kGM2ZWg/pexels-rdne-6069475.jpg"
       },
       {
         "id": 11,
@@ -96,7 +96,7 @@
         "Pricing": "$110 per session",
         "Counselor_Name": "Dr. Lisa Taylor",
         "Service_Details": "Anxiety Reduction Sessions are designed to help individuals reduce feelings of anxiety and panic through various therapeutic techniques. These sessions incorporate Cognitive Behavioral Therapy (CBT) to challenge irrational thought patterns that contribute to anxiety, as well as relaxation exercises to promote physical and mental calmness. Clients will also learn breathing exercises, grounding techniques, and mindfulness strategies to help manage anxiety in real-life situations. By developing coping skills and emotional regulation strategies, individuals are empowered to face their fears and reduce the frequency and intensity of anxiety attacks. This therapy aims to build confidence and resilience, allowing individuals to live with less anxiety and greater peace of mind.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/MgTd99Q/pexels-9044641-6146058.jpg"
       },
       {
         "id": 12,
@@ -105,7 +105,7 @@
         "Pricing": "$140 per session",
         "Counselor_Name": "James White",
         "Service_Details": "Grief Counseling provides support for individuals coping with the loss of a loved one. It aims to help clients navigate through the stages of grief, such as denial, anger, bargaining, depression, and acceptance, by offering a safe space to express emotions and process their grief. The therapist uses a variety of therapeutic techniques, including talk therapy, mindfulness, and memory work, to help clients heal from their loss. This service helps individuals understand that grief is a unique and personal journey, while also providing coping strategies to manage overwhelming feelings of sadness and loss. Grief counseling empowers clients to honor their loved ones and eventually find peace and acceptance.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/tspCpVm/icons8-team-m0o-STE-Mjs-I-unsplash.jpg"
       },
       {
         "id": 13,
@@ -123,7 +123,7 @@
         "Pricing": "$130 per session",
         "Counselor_Name": "Rachel Adams",
         "Service_Details": "Family Therapy is designed to improve communication and resolve conflicts within families. The therapist works with all family members to help them express their feelings and perspectives in a non-judgmental, safe space. This type of therapy helps families understand the dynamics that contribute to issues such as communication breakdowns, behavioral problems, or sibling rivalry. By fostering mutual understanding, empathy, and respect, family therapy aims to strengthen relationships, rebuild trust, and create a more harmonious home environment. The therapist also provides strategies for healthy conflict resolution, helping families navigate future challenges together.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/qDcbVhw/jason-goodman-w-Vh5gr-SMYa-Y-unsplash.jpg"
       },
       {
         "id": 15,
@@ -132,7 +132,7 @@
         "Pricing": "$150 per session",
         "Counselor_Name": "Dr. Alan Kline",
         "Service_Details": "Addiction Counseling provides individuals struggling with substance abuse or behavioral addictions the support they need to recover and rebuild their lives. The counselor helps clients explore the underlying emotional and psychological causes of their addiction, while also focusing on practical strategies for recovery. Treatment options may include individual therapy, group therapy, and family support. The therapist uses evidence-based approaches such as Cognitive Behavioral Therapy (CBT), Motivational Interviewing, and relapse prevention strategies to help clients achieve long-term sobriety. The goal is to create a personalized recovery plan that empowers clients to regain control of their lives and make lasting positive changes.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/qDcbVhw/jason-goodman-w-Vh5gr-SMYa-Y-unsplash.jpg"
       },
       {
         "id": 16,
@@ -145,7 +145,7 @@
       },
       {
         "id": 17,
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg",
+        "Image": "https://i.ibb.co.com/3BGW1V9/estee-janssens-z-Eqk-UMi-Mx-MI-unsplash.jpg",
         "Service_Name": "Mindfulness Meditation",
         "Category": "Personal Development",
         "Pricing": "$90 per session",
@@ -159,7 +159,7 @@
         "Pricing": "$120 per session",
         "Counselor_Name": "Amanda Jones",
         "Service_Details": "Teen Counseling is specifically designed to address the unique challenges faced by adolescents. This service focuses on helping teenagers navigate emotional, social, and behavioral issues that may arise during their formative years. The counselor provides a safe and confidential space for teens to express their feelings and concerns, addressing issues such as anxiety, depression, academic stress, peer pressure, and family conflict. Therapeutic techniques may include Cognitive Behavioral Therapy (CBT), talk therapy, and behavioral interventions. The goal is to help teens build self-esteem, improve their emotional regulation, and develop healthy coping mechanisms for dealing with challenges, ultimately empowering them to lead balanced and resilient lives.",
-        "Image": "https://i.ibb.co.com/NWsNrqQ/austin-distel-mp-N7xj-KQ-Ns-unsplash.jpg"
+        "Image": "https://i.ibb.co.com/8szKz8s/ian-schneider-Tam-Mbr4okv4-unsplash.jpg"
       }
   ]
   

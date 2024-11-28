@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Login = () => {
     const {handleGoogle,handleLogin,handleLogOut}=useContext(AuthContext);
@@ -25,8 +26,10 @@ const Login = () => {
       })
     }
     return (
-        <div>
-             <form onSubmit={handleLoggedin} action="">
+      <>
+      <Helmet><title>Login</title></Helmet>
+      <div className='bg-base-100 w-full max-w-sm shrink-0 shadow-2xl justify-center mx-auto mt-10  p-6'>
+             <form className='space-y-5' onSubmit={handleLoggedin} action="">
 <label className="input input-bordered flex items-center gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -53,12 +56,18 @@ const Login = () => {
   </svg>
   <input type="password" name='password' className="grow" />
 </label>
-<button type="submit">Login</button>
-<button onClick={handleLogOut}>Log Out</button>
+<label className="label">
+            <NavLink to='/forget' className="label-text-alt link link-hover">Forgot password?</NavLink>
+          </label>
+<div className='form-control'>
+<button type="submit" className='btn btn-neutral mx-auto mt-2'>Login</button>
+</div>
+
             </form>
-            <button onClick={handleGoogleLogin}>Google Login</button>
-            New here? <NavLink to='/register'>Register</NavLink>
+            <button onClick={handleGoogleLogin} className='btn btn-warning block mx-auto mt-3'>Login with Google</button>
+            <h3 className='text-xl mt-3'>Don't have an account? <NavLink to='/register'>Register</NavLink></h3>
         </div>
+        </>
     );
 };
 

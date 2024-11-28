@@ -3,7 +3,6 @@ import React from 'react';
 const Modal = ({savedata}) => {
   const saveddata=localStorage.getItem("feedbacks")
 const data=JSON.parse(saveddata);
-console.log(data.name)
   const handleModal=(e)=>{
 
   }
@@ -13,8 +12,8 @@ console.log(data.name)
 <form onSubmit={handleModal} action="">
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
-    <h3 className="font-bold text-lg">{saveddata.name}</h3>
-    <p className="py-4">Press ESC key or click the button below to close</p>
+    <h3 className="font-bold text-lg">{saveddata.name}Thank you for submitting</h3>
+    <p className="py-4">We will get back to you later</p>
     <div className="modal-action">
      
         {/* if there is a button in form, it will close the modal */}

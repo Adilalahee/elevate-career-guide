@@ -3,6 +3,7 @@ import { AuthContext } from '../Provider/AuthProvider';
 import { MdOutlinePassword } from "react-icons/md";
 import { MdHideSource } from "react-icons/md";
 import { MdOutlineDriveFileRenameOutline } from "react-icons/md";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -20,13 +21,22 @@ const Register = () => {
         handleRegister(email,password).then(res=>{
           handleProfile(name,image)
         })
-      // if(!/[a-z]/.test(password)){
-      //   setError("Password validation Error ")
-      // }
+        if(password.length<6){
+          setError('At least 6 characters');
+          return;
+      }
+      const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]){6,}$/;
+      if(!passwordRegex.test(password)){
+        setError('Need to enter the password in a correct way(uppercase,lowercase,special characters need to be used)')
+          return;
+      }
    
     }
     return (
       <>
+      <Helmet>
+        <title>Register</title>
+      </Helmet>
       <h1 className="text-5xl font-semibold max-w-sm mx-auto p-4">Register Here</h1>
         <div className='bg-base-100 w-full max-w-sm shrink-0 shadow-2xl flex justify-center mx-auto mt-10  p-6'>
             <form className='space-y-4' onSubmit={handleSubmit} action="">
@@ -71,7 +81,7 @@ const Register = () => {
   </svg>
   <input type={showpassword ? 'text':'password'} name='password' className="grow"/>
 </label>
-<button onClick={()=>setShowPassword(!showpassword)} className='absolute right-4 top-40'>
+<button onClick={()=>setShowPassword(!showpassword)} className='absolute right-[650px] top-[400px]'>
             {
               showpassword ? <MdHideSource />:<MdOutlinePassword />
             }
@@ -79,9 +89,12 @@ const Register = () => {
 <div className='form-control'>
 <button type="submit" className='btn btn-warning'>Register</button>
 </div>
+{
+        error && <p className='text-red-500 text-5xl'>{error}</p>
+      }
 
             </form>
-            <button className='text-5xl'>{error}</button>
+  
         </div>
         </>
     );

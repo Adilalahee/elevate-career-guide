@@ -35,25 +35,25 @@ const Navbar = () => {
        {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Elevate Career Guide</a>
+    <a className="btn btn-ghost text-xl text-slate-200">Elevate Career Guide</a>
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-center hidden lg:flex text-white font-semibold">
     <ul className="menu menu-horizontal px-1 space-x-5">
     {links}
     </ul>
   </div>
-  <div className="navbar-end">
+  <div className="navbar-end space-x-3">
     {
       user && user?.email? 
-      <div>
+      <div className='flex gap-2'>
         <img className='w-5 h-6 rounded-full' src={user.photoURL} alt="" />
         <button onClick={handleLogOut}>Logout</button>
       </div>
       :
-      <NavLink className='btn btn-primary' to='/login'>Login</NavLink>
+      <NavLink className='btn btn-neutral' to='/login'>Login</NavLink>
     }
   
-  <NavLink to='/profile'>Profile</NavLink>
+  <NavLink to='/profile' className='text-xl bg-zinc-200 p-2 rounded-lg'>Profile</NavLink>
   </div>
 </div>
     );

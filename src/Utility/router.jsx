@@ -10,6 +10,7 @@ import Details from "../Components/Details/Details";
 import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
 import Privateroute from "./Privateroute";
+import ForgetPassword from "../Components/Login/ForgetPassword";
 
 const router=createBrowserRouter([
     {
@@ -31,7 +32,10 @@ const router=createBrowserRouter([
             },
             {
                 path:"/team",
-                element:<Team></Team>
+                element:<Privateroute>
+                    <Team></Team>
+                </Privateroute>,
+                loader:()=>fetch("/service.json")
             },       {
                 path:"/blog",
                 element:<Blog></Blog>,
@@ -52,7 +56,6 @@ const router=createBrowserRouter([
                     const res=await fetch("/service.json")
                     const data=await res.json()
                     const singledata=data.find(d=>d.id==params.id)
-                    console.log(singledata)
                     return singledata;
 
                 }
@@ -64,6 +67,14 @@ const router=createBrowserRouter([
             {
                 path:"/register",
                 element:<Register></Register>
+            },
+            {
+                path:"/forget",
+                element:<ForgetPassword></ForgetPassword>
+            },
+            {
+                path:"*",
+                element: <h1>Error found</h1>
             }
 
         ]
