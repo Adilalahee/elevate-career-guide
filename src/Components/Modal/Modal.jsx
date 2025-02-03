@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Modal = ({savedata}) => {
+const Modal = () => {
   const saveddata=localStorage.getItem("feedbacks")
 const data=JSON.parse(saveddata);
   const handleModal=(e)=>{
@@ -12,7 +12,7 @@ const data=JSON.parse(saveddata);
 <form onSubmit={handleModal} action="">
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
-    <h3 className="font-bold text-lg">{saveddata.name}Thank you for submitting</h3>
+    <h3 className="font-bold text-lg">{data?.name}Thank you for submitting</h3>
     <p className="py-4">We will get back to you later</p>
     <div className="modal-action">
      
